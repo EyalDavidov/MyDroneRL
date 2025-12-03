@@ -1,0 +1,19 @@
+# Python environments
+venv/
+env/
+rl_env/
+
+# W&B runs
+wandb/
+
+# Large data/log directories
+*.patch
+*.dll
+
+# Cache and logs 
+__pycache__/
+*.log
+
+# PyTorch large libs
+*.so
+*.pyd

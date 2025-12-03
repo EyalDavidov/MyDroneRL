@@ -1,0 +1,7 @@
+numpy==2.1.2
+gymnasium==1.2.2
+stable-baselines3==2.7.0
+pygame==2.6.1
+matplotlib==3.10.7
+wandb
+tensorboard

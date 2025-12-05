@@ -17,3 +17,11 @@ __pycache__/
 # PyTorch large libs
 *.so
 *.pyd
+
+models/
+HOOPS/models/
+HOOPS/tmp/
+*.zip
+*.csv
+*.monitor.csv
+*.tfevents.*

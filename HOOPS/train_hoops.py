@@ -26,9 +26,9 @@ if __name__ == "__main__":
     # ============================================================
     TRAIN_FROM_SCRATCH = False  # Start fresh for the new task
     
-    OLD_MODEL_PATH = "HOOPS\models\ickwdsds\ppo_drone_hoops_5000000_steps.zip" # Not used if scratch
+    OLD_MODEL_PATH = "HOOPS\models\/tlu861pa\ppo_drone_hoops_5000000_steps.zip" # Not used if scratch
     
-    TRAINING_STEPS = 5_000_000
+    TRAINING_STEPS = 2_000_000
     NUM_ENVS = 8
 
     LOG_DIR = "HOOPS/tmp/logs/"

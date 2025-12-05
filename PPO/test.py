@@ -10,7 +10,7 @@ WIDTH = 1000
 HEIGHT = 1000
 FPS = 60
 
-MODEL_PATH = "models\/ttfo6vmr\model.zip"
+MODEL_PATH = "HOOPS\models\ogrjmjem\ppo_drone_hoops_5000000_steps.zip"
 
 class DroneSimulationViewer:
     def __init__(self, model_path=MODEL_PATH):

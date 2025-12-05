@@ -19,7 +19,7 @@ def get_latest_model():
     latest_file = max(list_of_files, key=os.path.getctime)
     return latest_file
 
-MODEL_PATH = get_latest_model()
+MODEL_PATH = "HOOPS\models\/tlu861pa\ppo_drone_hoops_4000000_steps.zip"
 
 class DroneHoopsViewer:
     def __init__(self, model_path=MODEL_PATH):

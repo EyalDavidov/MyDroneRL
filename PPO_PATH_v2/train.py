@@ -26,15 +26,15 @@ if __name__ == "__main__":
     # ============================================================
     TRAIN_FROM_SCRATCH = True  
     
-    OLD_MODEL_PATH = "models/last_run/model.zip" # Placeholder
-    NEW_MODEL_PATH = "models/ppo_figure8"
+    OLD_MODEL_PATH = "PPO_PATH_v2/models/last_run/model.zip" # Placeholder
+    NEW_MODEL_PATH = "PPO_PATH_v2/models/ppo_figure8"
     
     TRAINING_STEPS = 5_000_000
     NUM_ENVS = 16
 
     LOG_DIR = "tmp/logs/"
     os.makedirs(LOG_DIR, exist_ok=True)
-    os.makedirs("models", exist_ok=True)
+    os.makedirs("PPO_PATH_v2/models", exist_ok=True)
 
     SAVE_FREQ = 100_000 // NUM_ENVS  # ensures ~100k global steps
 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     
     checkpoint_callback = CheckpointCallback(
         save_freq=SAVE_FREQ,
-        save_path=f"models/checkpoints",
+        save_path=f"PPO_PATH_v2/models/checkpoints",
         name_prefix="ppo_figure8",
         save_replay_buffer=True,
         save_vecnormalize=True,
